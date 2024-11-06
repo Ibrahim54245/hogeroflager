@@ -1,5 +1,5 @@
 // Initialize variables
-let lives = 3;
+let lives = 5;
 let sum = 2;
 let dice1 = 1;
 let dice2 = 1;
