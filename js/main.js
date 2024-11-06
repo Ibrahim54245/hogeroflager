@@ -35,7 +35,7 @@ function rollDice() {
         document.querySelector('#result').textContent = `Uitkomst: ${targetNumber}`;
         //selects the guess and the message
         let guess = document.querySelector('#guess').value;
-        console.log(guess);
+       // console.log(guess);
         let message = document.querySelector('#message');
         //With an if or else statement it looks at if the player has gotten it right or wrong
         if ((sum > targetNumber && guess === 'higher') || (sum < targetNumber && guess === 'lower')) {
