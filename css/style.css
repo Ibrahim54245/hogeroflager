@@ -1,3 +1,20 @@
+.indexbody {
+    background-image: url(https://wallpapers.com/images/hd/casino-background-4jme29iyb1t3gxep.jpg)
+}
+
+.indexstyle {
+    text-align: center; margin-top: 50px;
+}
+
+.indexstyle > div {
+    font-size: 44px; 
+    margin-bottom: 20px; color:white;
+}
+
+.indexstyle > a {
+    background-color: green; color: white; padding: 10px 20px; border: none; cursor: pointer;
+}
+
 body {
     display: flex;
     flex-direction: column;
